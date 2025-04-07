@@ -18,12 +18,20 @@ const Button = styled.button`
   margin: 20px;
 `;
 
+const Input = styled.input`
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 0.8rem 1.2rem;
+`;
+
 function App() {
   return (
     <div>
       <H1>The wild Oasis</H1>
       <Button onClick={() => alert("Check in")}>Check In</Button>
       <Button onClick={() => alert("Check out")}>Check Out</Button>
+
+      <Input type="number" placeholder="Number of guests" />
     </div>
   );
 }
