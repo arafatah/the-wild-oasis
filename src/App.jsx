@@ -24,6 +24,8 @@ const Input = styled.input`
   padding: 0.8rem 1.2rem;
 `;
 
+
+
 function App() {
   return (
     <div>
