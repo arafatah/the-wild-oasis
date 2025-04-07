@@ -15,17 +15,28 @@ function App() {
     <>
       <GlobalStyles />
       <StyledApp>
-        <Row type="vertical">
+        <Row>
           <Row type="horizontal">
             <Heading as="h1">The wild Oasis</Heading>
 
             <div>
               <Heading as="h2">Check In and Out</Heading>
-              <Button onClick={() => alert("Check in")}>Check In</Button>
-              <Button onClick={() => alert("Check out")}>Check Out</Button>
+              <Button
+                
+                onClick={() => alert("Check in")}
+              >
+                Check In
+              </Button>
+              <Button
+                variation="secondary"
+                size="small"
+                onClick={() => alert("Check out")}
+              >
+                Check Out
+              </Button>
             </div>
           </Row>
-          <Row type="vertical">
+          <Row>
             <Heading as="h3">Form</Heading>
             <form>
               <Input type="number" placeholder="Number of guests" />
