@@ -22,7 +22,6 @@ function App() {
             <div>
               <Heading as="h2">Check In and Out</Heading>
               <Button
-                
                 onClick={() => alert("Check in")}
               >
                 Check In
