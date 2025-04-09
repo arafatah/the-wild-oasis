@@ -38,3 +38,14 @@ const Discount = styled.div`
   font-weight: 500;
   color: var(--color-green-700);
 `;
+
+
+function CabinRow() {
+  return (
+    <div>
+      Row
+    </div>
+  )
+}
+
+export default CabinRow
